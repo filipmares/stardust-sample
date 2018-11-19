@@ -16,6 +16,6 @@
     "typescript": "^3.1.6"
   },
   "scripts": {
-    "start": "parcel index.html -p 1234"
+    "start": "parcel index.html -p 1234 --open"
   }
 }
