@@ -18,4 +18,10 @@ yarn global add parcel-bundler
 yarn install
 ```
 
+### Running
+
+```
+yarn star
+```
+
 End with an example of getting some data out of the system or using it for a little demo
