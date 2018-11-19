@@ -5,6 +5,10 @@ Sample started project with React, Typescript and Stardust.
 ## Getting Started
 
 ### Prerequisites
+Install [yarn](https://yarnpkg.com/en/) for dependency management.
+```
+brew install yarn
+```
 
 Install [parcel](https://parceljs.org/) for building/bundling project locally.
 
