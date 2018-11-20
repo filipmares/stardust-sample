@@ -1,6 +1,6 @@
 # Stardust Sample
 
-Sample started project with React, Typescript and Stardust.
+Sample started project with React, Typescript and [Stardust](https://stardust-ui.github.io/react/).
 
 ## Getting Started
 
