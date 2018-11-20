@@ -1,18 +1,20 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
     mode: 'development',
     entry: './src/index.tsx',
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: './dist'
+        contentBase: './dist',
+        hot: true
     },
     module: {
         rules: [
             {
-                test: /\.tsx?$/,
+                test: /\.(js|ts|tsx)$/,
                 use: 'ts-loader',
                 exclude: /node_modules/
             },
@@ -44,7 +46,8 @@ module.exports = {
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
             title: 'Stardust Sample'
-        })
+        }),
+        new webpack.HotModuleReplacementPlugin()
     ],
     output: {
         filename: 'index.js',
