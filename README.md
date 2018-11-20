@@ -10,22 +10,26 @@ Install [yarn](https://yarnpkg.com/en/) for dependency management.
 brew install yarn
 ```
 
-Install [parcel](https://parceljs.org/) for building/bundling project locally.
-
-```
-yarn global add parcel-bundler
-```
-
 ### Installing
 
 ```
 yarn install
 ```
 
-### Running
+### Running (scripts)
+Start local server
 
 ```
 yarn star
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Start watch task
+```
+yarn watch
+```
+
+Build
+```
+yarn build
+```
+
